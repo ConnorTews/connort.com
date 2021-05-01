@@ -21,15 +21,6 @@ export default function App() {
           <Button href="#background">
             <h1>Backgrounds</h1>
           </Button>
-          {/* <IconButton
-              className="theme"
-              edge="end"
-              color="inherit"
-              aria-label="mode"
-              onClick={() => setTheme(!theme)}
-            >
-              {icon}
-            </IconButton> */}
         </div>
       </nav>
       <article id="welcome" className="welcome">
