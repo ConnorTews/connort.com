@@ -8,7 +8,7 @@ export default function website() {
         <Paper elevation={10}>
           <div className="padding_version">
             <h4>
-              You can see under the skirt here{" "}
+              You can see the inner workings here{" "}
               {/* <span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -26,9 +26,14 @@ export default function website() {
                 </svg>
               </span> */}
             </h4>
-            <a target="_blank" rel="noreferrer" href="https://github.com/ConnorTews/connort.com">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://github.com/ConnorTews/connort.com"
+            >
               github.com/ConnorTews/connort.com
             </a>
+            <p>Build 5</p>
           </div>
         </Paper>
       </div>
