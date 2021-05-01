@@ -30,7 +30,7 @@ class Background extends Component {
     return (
       <div className="background">
         <div className="background_content">
-          <Paper elevation={3}>
+          <Paper elevation={10}>
             <div className="padding_background">
               <div className="background_top">
                 <h1>Backgrounds</h1>

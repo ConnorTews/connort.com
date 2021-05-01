@@ -6,7 +6,7 @@ export default function about() {
   return (
     <div className="about">
       <div className="about_content">
-        <Paper elevation={3}>
+        <Paper elevation={10}>
           <div className="padding_about">
             <div className="about_title">
               <h1>About Me</h1>
@@ -29,11 +29,20 @@ export default function about() {
                 </a>
               </Button>
             </div>
-            <h3>Hi my name is Connor</h3>
-            <br />
-            <h4>I'm a aspiring fullstack webdev.</h4>
-            <br />
-            <h4>I like to play games and work on my websites.</h4>
+            <div className="about_content">
+              <h3>Hi my name is Connor</h3>
+              <br />
+              <h4>I'm a aspiring fullstack webdev.</h4>
+              <br />
+              <h4>I like to play games and work on my websites.</h4>
+              <br />
+              <h4>
+                You can email me here{" "}
+                <a href="mailto:connortews@connort.com">
+                  connortews@connort.com
+                </a>
+              </h4>
+            </div>
           </div>
         </Paper>
       </div>

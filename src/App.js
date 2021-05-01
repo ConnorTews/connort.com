@@ -3,6 +3,7 @@ import Button from "@material-ui/core/Button";
 import About from "./pages/about/about";
 import Background from "./pages/background/backgrounds";
 import Welcome from "./pages/welcome/welcome";
+import Footer from "./pages/version_footer/version";
 
 export default function App() {
   return (
@@ -31,6 +32,9 @@ export default function App() {
       </article>
       <article id="background" className="Backgrounds">
         <Background />
+      </article>
+      <article id="footer" className="footer">
+        <Footer />
       </article>
     </div>
     // </ThemeProvider>
